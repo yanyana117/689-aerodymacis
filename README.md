@@ -1,5 +1,5 @@
-pre.py file:
-Write a 2D Euler Solver to calculate flow past an airfoil. By using a triangular mesh file.
+Final project: pre.py
+intro: Write a 2D Euler Solver to calculate flow past an airfoil. By using a triangular mesh file.
 
 Test Case:
 
@@ -14,6 +14,7 @@ thought.py file: Simple analysis of an O-mesh grid
 ---------------------------------------------------------------------------------------------------
 Midterm project:
 
+mid_project_p1.py:
 - First Problem: Write a program to solve the equation: ∂u/∂t + a ∂u/∂x = 0 (One-dimensional linear advection equation)对流方程
 Try both the upwind scheme and the central difference scheme with implicit time stepping. (隐式时间步进)
 Propagate(传播) a step and a pulse for different CFL values (1 and less than 1).
@@ -25,6 +26,7 @@ Hits:
     x: spatial coordinate,空间坐标,代表 posotion in which the advection is taking place.
     t: time
     CFL: Courant–Friedrichs–Lewy
-    
+
+mid_project_p2.py:
 - Second Problem: Write a program to solve the Burgers' equation: ∂u/∂t + ∂/∂x (u^2/2) = 0.
 Use the upwind scheme with different initial conditions and provide a graphical output.    
