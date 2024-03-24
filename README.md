@@ -1,4 +1,4 @@
-Write a 2D Euler Solver to calculate flow past an airfoil. Calculate pressure, lift, and drag coefficients.
+Write a 2D Euler Solver to calculate flow past an airfoil.
 
 Test Case:
 
